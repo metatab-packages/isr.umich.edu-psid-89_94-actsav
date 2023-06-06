@@ -1,0 +1,71 @@
+Declare,metatab-latest
+Title,PSID Active Savings 89 and 94
+Description,"Measurements of money flows into savings, housing and annuities."
+Identifier,57de9589-d732-4e3b-9838-336561291960
+Name,isr.umich.edu-psid-89_94-actsav-1.1.1
+Dataset,psid
+Origin,isr.umich.edu
+Time,89_94
+Space,
+Grain,
+Variant,actsav
+Version,1.1.1
+Version.Major,1
+Version.Minor,1
+Version.Patch,1
+Created,2023-06-06T20:56:39
+Modified,2023-06-06T22:14:09
+
+Section,Contacts,Email,Organization,Url
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
+
+Section,Documentation,Title,Description,
+Documentation,file:README.md,README,,
+Homepage,https://psidonline.isr.umich.edu/default.aspx,Home Page,PSID home page
+Download Page,https://simba.isr.umich.edu/Zips/ZipMain.aspx?Val=1159?Val=1175,Download page,Data download page
+
+
+Section,References,Name,Description,
+Reference,data/ActSavings89_94,source,,
+
+Section,Resources,Name,Description,
+Datafile,notebooks/extract.ipynb#act94,act94,"Active savings, 1994",
+Datafile,notebooks/extract.ipynb#act89,act89,"Active savings, 1989",
+
+Section,Schema,Description,DataType,Start,End
+Table,act89,,,,
+Table.Column,act89v1,RELEASE NUMBER,number,1,1
+Table.Column,act89v2,1989 INTERVIEW NUMBER,integer,2,5
+Table.Column,act89v3,PUT INTO ANNUITY,integer,6,11
+Table.Column,act89v4,CASH IN ANNUITY,integer,12,18
+Table.Column,act89v5,BUY REAL ESTATE,integer,19,25
+Table.Column,act89v6,SELL REAL ESTATE,integer,26,31
+Table.Column,act89v7,HOME IMPROVEMENT,integer,32,37
+Table.Column,act89v8,BUY BUSINESS,integer,38,44
+Table.Column,act89v9,SELL BUSINESS,integer,45,51
+Table.Column,act89v10,ASSETS MOVE OUT,integer,52,58
+Table.Column,act89v11,DEBTS MOVE OUT,integer,59,65
+Table.Column,act89v12,ASSETS BROUGHT IN,integer,66,72
+Table.Column,act89v13,DEBTS BROUGHT IN,integer,73,79
+Table.Column,act89v14,FIRST GIFT/INHERITANCE,integer,80,86
+Table.Column,act89v15,SECOND GIFT/INHERITANCE,integer,87,93
+Table.Column,act89v16,NET INTO STOCK,integer,94,100
+Table,act94,,,,
+Table.Column,act94v1,RELEASE NUMBER,number,1,1
+Table.Column,act94v2,1994 INTERVIEW NUMBER,integer,2,6
+Table.Column,act94v3,PUT INTO ANNUITY,integer,7,12
+Table.Column,act94v4,CASH IN ANNUITY,integer,13,19
+Table.Column,act94v5,BUY REAL ESTATE,integer,20,26
+Table.Column,act94v6,SELL REAL ESTATE,integer,27,33
+Table.Column,act94v7,HOME IMPROVEMENT,integer,34,39
+Table.Column,act94v8,BUY BUSINESS,integer,40,46
+Table.Column,act94v9,SELL BUSINESS,integer,47,53
+Table.Column,act94v10,ASSETS MOVE OUT,integer,54,60
+Table.Column,act94v11,DEBTS MOVE OUT,integer,61,67
+Table.Column,act94v12,ASSETS BROUGHT IN,integer,68,74
+Table.Column,act94v13,DEBTS BROUGHT IN,integer,75,81
+Table.Column,act94v14,FIRST GIFT/INHERITANCE,integer,82,88
+Table.Column,act94v15,SECOND GIFT/INHERITANCE,integer,89,95
+Table.Column,act94v16,THIRD GIFT/INHERITANCE,integer,96,102
+Table.Column,act94v17,NET INTO STOCK,integer,103,109
+Table.Column,act94v18,SELL MAIN HOME,integer,110,115
